@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="CESU-8" ?>
+<suite name="支付测试">
+    <test name="login">
+        <classes >
+            <class name="com.course.testng.suit.suitConfig"></class>
+            <class name="com.course.testng.suit.logintest"></class>
+        </classes>
+    </test>
+    <test name="pay">
+        <classes>
+            <class name="com.course.testng.suit.suitConfig"></class>
+            <class name="com.course.testng.suit.payClass"></class>
+        </classes>
+    </test>
+</suite>
